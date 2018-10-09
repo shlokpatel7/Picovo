@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewPostActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/new_post_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="Add a new Post"
+        app:titleTextColor="#fff" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/new_post_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_add_black_24dp" />
+
+        <android.support.design.widget.TextInputEditText
+
+            android:id="@+id/desc_edit"
+            android:maxLength="125"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginVertical="12dp"
+            android:backgroundTint="#000"
+            android:ems="10"
+            android:hint="Enter description"
+            android:inputType="textMultiLine"
+            android:textColor="#000" />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/post_btn"
+      android:layout_marginHorizontal="16dp"
+      android:background="@color/colorPrimaryDark"
+      android:text="Post"
+      android:textColor="#fff"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:theme="@style/mystyle"
+        android:visibility="gone"
+        android:id="@+id/post_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

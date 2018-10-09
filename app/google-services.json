@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "544125950196",
+    "firebase_url": "https://picovo-28ede.firebaseio.com",
+    "project_id": "picovo-28ede",
+    "storage_bucket": "picovo-28ede.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544125950196:android:0d9fd92f106d98b5",
+        "android_client_info": {
+          "package_name": "com.example.shlokpatel.picovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544125950196-nh4kcq3pk28glcom1euqsm66oa7t186s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shlokpatel.picovo",
+            "certificate_hash": "94485cf8996e6f6ed81dcff6e7f99d3888ee3c14"
+          }
+        },
+        {
+          "client_id": "544125950196-6jgjiq65pjh121dv0o11apq4mb5vd7eg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVsC3OaLjlai3Ez_xtPJaCodZ3AhuJMQA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544125950196-6jgjiq65pjh121dv0o11apq4mb5vd7eg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
